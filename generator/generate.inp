@@ -1,0 +1,10 @@
+! incident electron energy [keV]
+100.
+! low electron energy threshold [keV]
+1.
+! target Z      
+79
+! use Muffin-Tin modification of atomic potential (yes=1, no=0)
+1
+! correct errors from ELSEPA (yes=1, no=0)
+1
