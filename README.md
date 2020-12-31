@@ -8,7 +8,7 @@ Michal Dragowski, Gunter Weber and Marta Wlodarczyk
 
 PolEM:
 
-M. Dragowski et al., Nucl. Instr. Meth. B 488, 37 (2021)
+M. Dragowski et al., Nucl. Instrum. Meth. B 488, 37 (2021)
 
 ELSEPA generator:
 
