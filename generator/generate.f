@@ -229,16 +229,16 @@
       open (unit=54, file='data/d'//trim(filename)//'.dat', form='unformatted', access='direct', status = 'replace', recl=nAngularSteps*8)
       write(54,rec=1) angle
       do I=1, nEnergySteps
-        write(54,rec=1+v) differential(:,I)
+        write(54,rec=1+I) differential(:,I)
       end do
       do I=1, nEnergySteps
-        write(54,rec=1+nEnergySteps+v) cs(:,I,2)
+        write(54,rec=1+nEnergySteps+I) cs(:,I,2)
       end do
       do I=1, nEnergySteps
-        write(54,rec=1+2*nEnergySteps+v) cs(:,I,3)
+        write(54,rec=1+2*nEnergySteps+I) cs(:,I,3)
       end do
       do I=1, nEnergySteps
-        write(54,rec=1+3*nEnergySteps+v) cs(:,I,4)
+        write(54,rec=1+3*nEnergySteps+I) cs(:,I,4)
       end do
       close(54)
       
